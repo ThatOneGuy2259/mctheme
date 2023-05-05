@@ -1,0 +1,21 @@
+{
+  "name": "mctheme",
+  "displayName": "McTheme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "McTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/McTheme-color-theme.json"
+      }
+    ]
+  }
+}
